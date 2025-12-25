@@ -133,9 +133,9 @@ export const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-fire-orange mt-0.5 flex-shrink-0" />
                 <span className="text-accent-foreground/60">
-                  123 Safety Street
+                  Near TVC collage Boys
                   <br />
-                  Fire City, FC 12345
+                  Township Bannu
                 </span>
               </li>
               <li className="flex items-center gap-3">
