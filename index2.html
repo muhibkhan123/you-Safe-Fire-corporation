@@ -73,7 +73,13 @@
          */
 
         const IMAGES = {
+            // [LOGO HERE]: Replace this URL with your logo image URL
+            logo: "https://cdn-icons-png.flaticon.com/512/7804/7804898.png",
+            
+            // [HERO PICTURE HERE]: Replace this URL with your main hero image
             hero: "https://images.unsplash.com/photo-1555627238-d6e06a88b584?q=80&w=2070&auto=format&fit=crop",
+            
+            // Service Images
             equipment: "https://images.unsplash.com/photo-1583590209689-d107a9e3346e?q=80&w=1000&auto=format&fit=crop",
             alarm: "https://images.unsplash.com/photo-1520697775314-1b15c1e95086?q=80&w=1000&auto=format&fit=crop",
             training: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000&auto=format&fit=crop",
@@ -168,11 +174,14 @@
                 }`}>
                     <div className="container mx-auto px-4 lg:px-8">
                         <div className="flex items-center justify-between">
-                            {/* Logo */}
-                            <a href="#home" className="flex items-center gap-2 group">
-                                <div className={`p-2 rounded-lg ${isScrolled ? 'bg-orange-100' : 'bg-white/10 backdrop-blur'}`}>
-                                    <Flame className={`w-8 h-8 ${isScrolled ? 'text-orange-600' : 'text-orange-500'}`} />
-                                </div>
+                            {/* Logo Section */}
+                            <a href="#home" className="flex items-center gap-3 group">
+                                {/* LOGO IMAGE HERE */}
+                                <img 
+                                    src={IMAGES.logo} 
+                                    alt="You-Safe Logo" 
+                                    className="w-10 h-10 object-contain"
+                                />
                                 <div className="flex flex-col">
                                     <span className={`font-bold text-xl tracking-wider leading-none ${isScrolled ? "text-slate-900" : "text-white"}`}>
                                         YOU-SAFE
@@ -248,11 +257,11 @@
         const Hero = () => {
             return (
                 <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-                    {/* Background */}
+                    {/* Background Picture */}
                     <div className="absolute inset-0 z-0">
                         <img 
                             src={IMAGES.hero} 
-                            alt="Firefighters" 
+                            alt="Professional firefighters at training" 
                             className="w-full h-full object-cover"
                         />
                         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-transparent"></div>
@@ -427,7 +436,7 @@
                                 <span className="text-orange-500 font-bold tracking-wider uppercase text-sm">About Us</span>
                                 <h2 className="font-bold text-4xl md:text-5xl text-white mt-2 mb-6 leading-tight">
                                     YOUR TRUSTED <br />
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">FIRE SAFETY</span> <br />
+                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">ENGINEERING</span> <br />
                                     PARTNER
                                 </h2>
                                 <p className="text-slate-400 text-lg mb-6 leading-relaxed">
