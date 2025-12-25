@@ -3,6 +3,10 @@ import { Flame, Shield, Bell, Users, Wrench, FileCheck } from "lucide-react";
 import fireEquipment from "@/assets/fire-equipment.jpg";
 import fireTraining from "@/assets/fire-training.jpg";
 import fireAlarm from "@/assets/fire-alarm.jpg";
+// Add your new images here:
+import fireRisk from "@/assets/fire-risk.jpg";       // <--- ADD THIS
+import maintenance from "@/assets/maintenance.jpg";   // <--- ADD THIS
+import compliance from "@/assets/compliance.jpg";     // <--- ADD THIS
 
 const services = [
   {
@@ -31,21 +35,21 @@ const services = [
     title: "Fire Risk Assessment",
     description:
       "Thorough evaluation of your premises to identify and mitigate fire hazards.",
-    image: null,
+    image: fireRisk,
   },
   {
     icon: Wrench,
     title: "System Maintenance",
     description:
       "Regular inspection and maintenance of all fire protection equipment and systems.",
-    image: null,
+    image: maintenance,
   },
   {
     icon: FileCheck,
     title: "Compliance Services",
     description:
       "Ensure your business meets all local and national fire safety regulations.",
-    image: null,
+    image: compliance,
   },
 ];
 

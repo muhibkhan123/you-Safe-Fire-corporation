@@ -140,14 +140,14 @@ export const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-fire-orange flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-accent-foreground/60 hover:text-fire-orange transition-colors">
-                  +1 (234) 567-8900
+                <a href="tel:=923139242996" className="text-accent-foreground/60 hover:text-fire-orange transition-colors">
+                  +923139242996
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-fire-orange flex-shrink-0" />
-                <a href="mailto:info@yousafe.com" className="text-accent-foreground/60 hover:text-fire-orange transition-colors">
-                  info@yousafe.com
+                <a href="mailto:muhib7192@gmail.com" className="text-accent-foreground/60 hover:text-fire-orange transition-colors">
+                  muhib7192@gmail.com
                 </a>
               </li>
             </ul>
@@ -160,7 +160,7 @@ export const Footer = () => {
         <div className="container mx-auto px-4 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-accent-foreground/50 text-sm text-center md:text-left">
-              © 2024 You-Safe Fire Corporation. All rights reserved.
+              © 2025 Eng:Muhib Ullah. All rights reserved.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-accent-foreground/50 hover:text-fire-orange text-sm transition-colors">

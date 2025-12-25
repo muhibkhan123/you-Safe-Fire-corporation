@@ -10,13 +10,13 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    value: "+1 (234) 567-8900",
+    value: "+923139242996",
     subtitle: "24/7 Emergency Line",
   },
   {
     icon: Mail,
     title: "Email Us",
-    value: "info@yousafe.com",
+    value: "muhib7192@gmail.com",
     subtitle: "We reply within 24 hours",
   },
   {
@@ -119,7 +119,7 @@ export const Contact = () => {
                 to call us for any fire-related emergencies.
               </p>
               <a
-                href="tel:+1234567890"
+                href="tel:+923139242996"
                 className="inline-flex items-center gap-2 bg-primary-foreground text-primary font-semibold px-6 py-3 rounded-xl hover:bg-primary-foreground/90 transition-colors"
               >
                 <Phone className="w-5 h-5" />

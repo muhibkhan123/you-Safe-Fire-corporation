@@ -55,7 +55,7 @@ export const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="tel:+1234567890" className="flex items-center gap-2 text-foreground/80 hover:text-primary transition-colors">
+            <a href="tel:+923139242996" className="flex items-center gap-2 text-foreground/80 hover:text-primary transition-colors">
               <Phone className="w-4 h-4" />
               <span className="font-medium">24/7 Emergency</span>
             </a>
