@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, Flame } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImage from "@/assets/logo.png"; // <--- Add this line
 const navLinks = [{
   name: "Home",
   href: "#home"
@@ -35,13 +36,19 @@ export const Header = () => {
   }} className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 backdrop-blur-md shadow-lg" : "bg-transparent"}`}>
       <div className="container mx-auto px-4 lg:px-8 bg-primary-foreground">
         <div className="h-20 flex-row flex items-center justify-between border border-primary border-none bg-primary-foreground">
-          {/* Logo */}
+{/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 gradient-fire rounded-lg flex items-center justify-center group-hover:shadow-fire transition-all duration-300">
-              <Flame className="w-6 h-6 text-primary-foreground" />
-            </div>
+            
+            {/* --- REPLACED THE FLAME ICON WITH IMAGE BELOW --- */}
+            <img 
+              src={logoImage} 
+              alt="You-Safe Logo" 
+              className="h-12 w-auto object-contain" /* Change h-12 to make it bigger/smaller */
+            />
+            {/* ------------------------------------------------ */}
+
             <span className="font-display text-2xl tracking-wider text-foreground">
-              YOU-SAFE FIR CORPORATION  
+              YOU-SAFE FIRE CORPORATION  
             </span>
           </a>
 
